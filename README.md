@@ -13,7 +13,7 @@ This repo is a simply template for asocial Twitter bots using [Tweepy][tpy], a f
 ### Say something personal
 Once you have everything above mentioned, you can start replacing my garbage .json and .txt files with your valid files. You can also change the tweeting frequency in lines 37-38 of the .py file. My bot, for instance, writes 10 consecutive tweets every hour:
 ```sh
-37 time_between_tweets = 30 			  # Time in secs between consecutive tweets.
+37 time_between_tweets = 30               # Time in secs between consecutive tweets.
 38 time_between_tweeting = 3600 - 30*10   # Time in secs between tweeting.
 ```
 
