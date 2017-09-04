@@ -11,7 +11,7 @@ This repo is a simply template for asocial Twitter bots using [Tweepy][tpy], a f
    - **Input .txt** file preferably saved with UTF8 encoding, with the content you want to tweet. I had some errors trying to tweet with other default encoding from the Windows notepad.
 
 ### Say something personal
-Once you have everything above mentioned, you can start replacing my garbage .json and .txt files with your valid files.
+Once you have everything above mentioned, you can start replacing my garbage `secret.json` and `file.txt` with your valid files.
 You need to replace my garbage keys and access tokens strings with your valid ones:
 ```sh
 {"Twitter":
