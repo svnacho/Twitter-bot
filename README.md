@@ -23,7 +23,7 @@ You need to replace my garbage keys and access tokens strings with your valid on
 	}
 }
 ```
-Then, replace my garbage .txt file with whatever you want the bot tweeting. Note that the script will read the input .txt file line by line, so you should try to create a proper file separated in 140-length lines or less; otherwise the script will tweet every large line divided into as many lines as possible to tweet them (preceded by "1:", "2:" and so on):
+Then, replace my garbage `file.txt` with whatever you want the bot tweeting. Note that the script will read the input file line by line, so you should try to create a proper file separated in 140-length lines or less; otherwise the script will tweet every large line divided into as many lines as possible to tweet them (preceded by "1:", "2:" and so on):
 ```sh
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
 laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto 
