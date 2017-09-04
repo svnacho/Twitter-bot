@@ -33,6 +33,8 @@ quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
 incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
 nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 ```
+Additionally, in the opposite case, if the script finds short lines (i.e. three consecutive lines with a total length shorter than 141 characters), it will concatenate them in a single tweet.
+
 You can also change the **tweeting frequency** in lines 37-38 of the `bot_template.py` file. My bot, for instance, writes 10 consecutive tweets every hour:
 ```sh
 37 time_between_tweets = 30               # Time in secs between consecutive tweets.
