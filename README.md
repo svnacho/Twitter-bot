@@ -16,3 +16,8 @@ Once you have everything above mentioned, you can start replacing my garbage .js
 37 time_between_tweets = 30 			  # Time in secs between consecutive tweets.
 38 time_between_tweeting = 3600 - 30*10   # Time in secs between tweeting.
 ```
+
+
+   [tpy]: <https://github.com/tweepy/tweepy>
+   [py3]: <https://www.python.org/download/releases/3.0/>
+   [twdev]: <https://dev.twitter.com>
