@@ -41,7 +41,7 @@ You can also change the **tweeting frequency** in lines 37-38 of the `bot_templa
 38 time_between_tweeting = 3600 - 30*10   # Time in secs between tweeting.
 ```
 ### Do your best
-This is a ultra-simple bot which I found useful for learning the basics of Tweepy, but you can try whatever you imagine. Change your input, use other Twitter functions through Tweepy, make an interactive bot... and enjoy.
+This is a ultra-simple bot which I found useful for learning the basics of Python, Tweepy and Raspberry Pi, but you can try whatever you imagine. Change your input, use other Twitter functions through Tweepy, make an interactive bot... and enjoy.
 
 
    [tpy]: <https://github.com/tweepy/tweepy>
