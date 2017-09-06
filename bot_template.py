@@ -8,15 +8,8 @@ def divideString(string, ext=140): # Gets a long string unable to be tweeted and
 	strgroup = []
 	shortlen = int(len(string)/number_of_str)
 	for i in range(number_of_str):
-		strgroup.append(removeLatSpaces(string[shortlen*i : (i + 1)*shortlen]))
+		strgroup.append(string[shortlen*i : (i + 1)*shortlen].strip())
 	return strgroup
-
-def removeLatSpaces(string): # Gets a string and returns the same string w/o any space character at its sides, if exist.
-	while string[0] == " ":
-		string = string[1:]
-	while string[len(string) - 1] == " ":
-		string = string[: len(string) - 1]
-	return string
 
 fin = open("file.txt", "r") # Opening the source text.
 with open('secret.json') as data_file:  # Opening the secret file (contains tokens)
