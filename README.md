@@ -1,5 +1,5 @@
 # Twitter-bot
-This repo is a simply template for asocial Twitter bots using [Tweepy][tpy], a fancy module for Python which wraps the authentication process.
+This repo is a simple template for asocial Twitter bots using [Tweepy][tpy], a fancy module for Python which wraps the authentication process.
 
 ### What you need
  - [Python 3][py3] installed;
